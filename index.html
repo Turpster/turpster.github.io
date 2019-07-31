@@ -1,1 +1,156 @@
-Hello, World
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css", href="style/css/style.css">
+    <script src="style/js/jquery.min.js"></script>
+    <script src="style/js/typed.min.js"></script>
+    <script>
+       $(document).ready(() => {
+           var typed = new Typed("#subtitle-typewritter", {
+               strings: ["Games Designer", "Software Developer", "Software Engineer"],
+               typeSpeed: 20,
+               backSpeed: 30,
+               smartBackspace: true
+           });
+       })
+    </script>
+</head>
+<body>
+<div class="nav-bar">
+    <h1>Turpster</h1>
+    <div class="subtitle"><span id="subtitle-typewritter"></span></div>
+    <hr>
+    <div class="icons">
+        <div class="icon"><img src="assets/icons/location.svg"/>
+            <span>Grimsby, UK</span>
+        </div>
+        <div class="icon"><img src="assets/icons/mail.svg"/>
+            <span>
+                <a href="mailto:turpster@turpster.xyz">turpster@turpster.xyz</a>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="containers">
+    <div class="container">
+        <h2>About Me</h2>
+        <img src="assets/images/me.jpg" align="right" style="margin: 6px 0 0 10px; height: 180px">
+
+        <p style="text-align: justify">My name is Reece, I am a self-taught 17 year old programmer from the UK, alone
+            in my own world.<span style="color: gray"> it's kinda lonely out here.</span>
+        </p>
+        <p style="text-align: justify">
+            Throughout the years I have only progressed and this is what makes me excited for the future. I always
+            wanted to create my own software and it all started with my Minecraft Server as a kid. And, just as a kid, I
+            started to learn Java, my first programming language. It opened up a new world for me, with endless
+            possibilities. It wouldn't matter if I was creating a calculator, or a lie detector, it was my magic. I
+            designed this. I made this. And it spiraled my creativity. Ever since the moment I created my first
+            calculator in Java, I realised that Software Engineers are not 0 and 1 stalkers, but influential artists.
+        </p>
+        <p style="text-align: justify">
+            My wisdom only grew and I eventually learnt everything I needed to know with Java, it really was my
+            only <i>paintbrush</i>, that is until I began to learn to use other types of <i>paintbrush</i>; HTML, C++,
+            C#, Javascript along with libraries and frameworks to match, came with it. By the age of 17, I am currently
+            creating a Game Engine with low level calls with open-gl using C#.
+        </p>
+        <p style="text-align: justify">
+            In my spare time, I skate at the skatepark while listening to punk of course, I generally stay away from
+            negative people but this city has lots of them! but I know who my real friends are...
+            <span style="color: gray"> I think...</span>
+        </p>
+    </div>
+    <div class="container">
+        <h2>Projects</h2>
+        <p>
+            Here are a few of my projects. <span style="color: gray"> I will finish them at <i>some point</i>...</span>
+        </p>
+        <div class="cards">
+            <div class="card">
+                <h3>open-gl</h3>
+                <img src="assets/images/open-gl.png">
+                <p>
+                    Making an engine using open-gl
+                </p>
+                <div class="icons">
+                    <div class="icon">
+                        <a href="https://github.com/Turpster/open-gl" target="_blank"><img src="assets/icons/github-dark-64px.png" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Adventure Game</h3>
+                <img src="assets/images/adventure-game.png">
+                <p>
+                    Experimenting with Java's 2D canvas.
+                </p>
+                <div class="icons">
+                    <div class="icon">
+                        <a href="https://github.com/Turpster/adventure-game" target="_blank"><img src="assets/icons/github-dark-64px.png"/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>SnakeCMD</h3>
+                <img src="assets/images/snake-cmd.png">
+                <p>
+                    Snake in command line with C++ and C#
+                </p>
+                <div class="icons">
+                    <div class="icon">
+                        <a href="https://github.com/Turpster/snakecmd" target="_blank"><img src="assets/icons/github-dark-64px.png"/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Nukkit SSHD</h3>
+                <img src="assets/images/nukkit-sshd.png">
+                <p>
+                    A SSH plugin for Nukkit Servers.
+                </p>
+                <div class="icons">
+                    <div class="icon">
+                        <a href="https://github.com/Turpster/nukkit-sshd" target="_blank"><img src="assets/icons/github-dark-64px.png"/></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://nukkitx.com/resources/nukkit-sshd.169/" target="_blank"><img src="assets/icons/minecraft.svg"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Feedback</h2>
+        <h3>Jordan Soffer (Old Boss)</h3>
+        <img src="assets/images/jsoffer.png" align="right" style="margin: 6px 0 0 10px; height: 180px">
+        <p style="text-align: justify">
+            "This past year, I decided I wanted to start a Minecraft server network. Upon much thought and consideration,
+            I decided to start with a website. I have created and made many websites on my own, but this time I decided
+            I wanted to hire a professional developer. Upon further review, I contacted Turpster, who has offered me
+            excellent help since."
+        </p>
+        <p style="text-align: justify">
+            "To me, creating and building a website can be so stressful, but with Turpster by my side, it never was. Not
+            only has he helped me with website design and stunning themes/templates, but also, custom programs & plugins
+            alongside teaching me much regarding coding and programming languages."
+        </p>
+        <p style="text-align: justify">
+           "Overall, a great asset! Would highly recommend!"
+        </p>
+    </div>
+</div>
+<div class="footer">
+    Icons are from the <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus Icon Theme</a>.
+    <div class="icons">
+        <div class="icon">
+            <a href="https://radical.town/web/accounts/120702" target="_blank"><img src="assets/icons/mastodon.svg"></a>
+        </div>
+        <div class="icon">
+            <a href="https://www.reddit.com/user/Turpster01" target="_blank"><img src="assets/icons/reddit.png"></a>
+        </div>
+        <div class="icon">
+            <a href="https://github.com/Turpster" target="_blank"><img src="assets/icons/github-light-64px.png"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
